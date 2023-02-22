@@ -44,9 +44,39 @@ odds: {
 // Диструктуризация
 
 const [players1, players2] = game.players;
-console.log(players1, players2);
+// console.log(players1, players2);
 
 //rest
 
-const [gal, ...time] = players1;
-console.log(gal, ...time);
+const [goalkeeper, ...fieldPlayers] = players1;
+// console.log(goalkeeper, fieldPlayers);
+const allPlayers = [...players1, ...players2];
+// console.log(allPlayers);
+
+//4
+const players1Total = [...players1, 'Marcelo', 'Isco', 'Diaz', 'Odriozola'];
+console.log(players1Total);
+
+//5
+ const {
+  odds: { team1, draw, team2},
+ }=game;
+
+  console.log(team1, draw, team2);
+
+
+  //6
+  const printGoals = function (...gamePlayers) {
+    console.log(`${gamePlayers.length} goals scored`);
+  };
+
+  printGoals('Mingueza', 'Messi', 'Modrich', 'Nacho');
+
+  printGoals(...game.scored);
+
+  //7
+
+
+  team1 < team2 && console.log(`${game.team1} is more likely to win`);
+
+
