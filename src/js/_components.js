@@ -79,4 +79,20 @@ console.log(players1Total);
 
   team1 < team2 && console.log(`${game.team1} is more likely to win`);
 
+  // for(const x of game.players[0]) {
+  //   console.log(x);
+  // }
+
+  // for(const x of game.players[0].entries()) {
+  //   console.log(x);
+  // }
+
+  // for(const pl of game.players[0].entries()) {
+  //   console.log(`${pl[0] + 1}. ${pl[1]}`);
+  // }
+
+  //   for(const [index, food] of game.players[0].entries()) {
+  //   console.log(`${index + 1}. ${food}`);
+  // }
+
 
