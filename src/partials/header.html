@@ -1,26 +1,28 @@
 <header class="header">
-  <div class="header__container">
+  <div class="container-fluid header__container">
     <a class="logo" href="#">
-      <img class="image" src="img/logo.svg" alt="" width="228" heigth="48" />
+      <img
+        loading="lazy"
+        src="img/logo.svg"
+        class="image"
+        width="228"
+        height="48"
+        alt=""
+      />
     </a>
-    <nav class="nav">
+    <nav class="nav" title="Главное меню">
       <ul class="nav__list">
-        <li class="nav__item"><a class="nav__link" href="#">О школе</a></li>
-        <li class="nav__item"><a class="nav__link" href="#">Тренеры</a></li>
-        <li class="nav__item"><a class="nav__link" href="#">Стоимость</a></li>
+        <li class="nav__item">
+          <a href="#about" class="nav__link" data-scroll>О школе</a>
+        </li>
+        <li class="nav__item">
+          <a href="#trainers" class="nav__link" data-scroll>Тренеры</a>
+        </li>
+        <li class="nav__item">
+          <a href="#tariffs" class="nav__link" data-scroll>Стоимость</a>
+        </li>
       </ul>
-      <button class="burger-close"></button>
     </nav>
-    <a class="header__phone" href="tel:+79602831991">+79602831991</a>
-    button.<button
-      class="burger"
-      aria-label="Открыть меню"
-      aria-expanded="false"
-      data-burger
-    >
-      <span class="burger__line"></span>
-      <span class="burger__line"></span>
-      <span class="burger__line"></span>
-    </button>
+    <a class="phone" href="tel:89602831991">+7 960 283 19 91</a>
   </div>
 </header>

@@ -1,3 +1,4 @@
+import './components/smooth-scroll';
 // console.log('components');
 
 // const game = {
