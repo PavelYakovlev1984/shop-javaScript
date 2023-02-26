@@ -1,5 +1,7 @@
 .btn {
+  margin: 0;
   padding: 0;
+  padding: 26px 54px;
   border: none;
   background-color: var(--accent-color);
   color: var(--light-color);
@@ -9,4 +11,5 @@
   font-size: 18px;
   line-height: 160%;
   text-align: center;
+  padding: 26px 54px;
 }
