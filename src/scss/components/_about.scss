@@ -1,0 +1,48 @@
+.about {
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+  &__descr {
+    color: var(--dark-color);
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 160%;
+    margin-bottom: 60px;
+
+    &-highlight {
+      font-style: normal;
+      font-weight: 800;
+      font-size: 50px;
+      line-height: 160%;
+    }
+  }
+
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 40px;
+  }
+
+  &__item {
+    grid-column: 3 span;
+  }
+
+  &__digit {
+    color: var(--accent-color);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 160%;
+  }
+
+  &__text {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+  }
+}

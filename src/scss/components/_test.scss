@@ -1,0 +1,125 @@
+.header {
+  position: absolute;
+  padding: 30px 0;
+  width: 100%;
+  top: 0;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.nav {
+  &__list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 40px;
+  }
+
+  &__link {
+    color: var(--light-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+  }
+}
+
+.phone {
+  color: var(--light-color);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 160%;
+}
+
+.hero {
+  min-height: 800px;
+  background-color: var(--dark-color);
+
+  &__title {
+    max-width: 560px;
+    text-transform: uppercase;
+    padding-top: 250px;
+    margin: 0;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 160%;
+    color: var(--light-color);
+    margin-bottom: 50px;
+
+    &__text {
+      max-width: 90%;
+      display: block;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 160%;
+      text-transform: initial;
+    }
+  }
+}
+
+.btn {
+  display: inline-block;
+  color: var(--light-color);
+  border: none;
+  background-color: var(--accent-color);
+  border-radius: 5px;
+  margin: 0;
+  padding: 21px 54px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.about {
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+  &__descr {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 160%;
+  }
+
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 40px;
+  }
+
+  &__item {
+    grid-column: 3 span;
+  }
+
+  &__digit {
+    color: var(--accent-color);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 160%;
+  }
+
+  &__text {
+    color: var(--text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+  }
+}
