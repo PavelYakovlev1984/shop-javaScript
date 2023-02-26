@@ -5,12 +5,15 @@
 @import "settings";
 
 // подключения малых компонентов страницы
-// @import "./components/btn";
-// @import "./components/nav";
-// @import "./components/phone";
+@import "./components/btn";
+@import "./components/nav";
+@import "./components/phone";
+@import "./components/section-title";
+@import "./components/tooltip";
 
 // подключения крупных компонентов страницы
-// @import "./components/header";
-// @import "./components/hero";
-// @import "./components/about";
-@import "./components/test";
+@import "./components/header";
+@import "./components/hero";
+@import "./components/about";
+@import "./components/benefits";
+// @import "./components/test";

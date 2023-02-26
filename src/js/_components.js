@@ -1,4 +1,5 @@
 import './components/smooth-scroll';
+import './components/tooltip';
 // console.log('components');
 
 // const game = {
